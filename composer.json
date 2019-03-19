@@ -1,12 +1,12 @@
 {
-    "name": "Floxn/contao-hello-world-bundle",
+    "name": "floxn/contao-hello-world-bundle",
     "type": "contao-bundle",
     "description": "Hello World extension for Contao Open Source CMS",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Floxn",
-            "homepage": "https://github.com/Floxn"
+            "homepage": "https://github.com/floxn"
         }
     ],
     "require": {
@@ -28,20 +28,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Floxn\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Floxn\\ContaoHelloWorldBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "Floxn\\ContaoHelloWorldBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
+        "issues": "https://github.com/floxn/contao-hello-world-bundle/issues",
+        "source": "https://github.com/floxn/contao-hello-world-bundle"
     }
 }
